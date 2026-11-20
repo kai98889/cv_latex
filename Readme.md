@@ -1,6 +1,6 @@
 # Kai Zhu - LaTeX CV
 
-Personal English CV for Kai Zhu, based on the supplied self-introduction. Education, project details, and technical background are included; dates and contact details not supplied are omitted.
+Personal English CV for Kai Zhu, based on the supplied self-introduction. Includes education, project details, technical background, a portrait, and the approved phone contact. Dates not supplied are omitted.
 
 ## Build and publish
 
