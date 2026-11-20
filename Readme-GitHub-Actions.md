@@ -1,5 +1,7 @@
 # Automated CV Building with GitHub Actions
 
+**This file is the original template guide.** This project's current workflow uses XeLaTeX, separate build and publish jobs, retained release history, and `gh release create`. See `.github/workflows/build-cv.yml` and the main Readme for the actual configuration; the older YAML example below is retained for reference.
+
 This guide explains how to leverage GitHub Actions for continuous integration and automated PDF generation for your LaTeX CV.
 
 ## Advantages of GitHub Actions

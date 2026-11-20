@@ -1,4 +1,19 @@
-# LaTeX CV Builder
+# Kai Zhu - LaTeX CV
+
+Personal English CV for Kai Zhu, based on the supplied self-introduction. Education, project details, and technical background are included; dates and contact details not supplied are omitted.
+
+## Build and publish
+
+- Edit `main.tex` and push to `main` or `master`.
+- GitHub Actions compiles the CV with XeLaTeX and saves a `cv-pdf` artifact.
+- The publication job creates or updates the `release` branch with only `main.pdf`, preserving previous release commits.
+- A GitHub Release attaches the PDF and tags the corresponding publication commit.
+- Pull requests compile the document without publishing. Manual runs are available in Actions.
+- No local LaTeX, Docker, plugin, or manually configured token is needed for the GitHub Actions build.
+
+The source template is [reveurmichael/cv_latex](https://github.com/reveurmichael/cv_latex). The original setup documentation below describes alternative local and Docker build methods; the current workflow is `.github/workflows/build-cv.yml`.
+
+## Original template documentation
 
 This repository demonstrates a LaTeX CV template with **multiple build methods**, providing flexibility and redundancy across different platforms and workflows.
 
